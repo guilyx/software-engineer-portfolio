@@ -2,9 +2,9 @@
 Web Portfolio to showcase projects and skills in better manner. 
 
 ### About me
-* Software Development Page
-* Embedded Systems Page
 * Robotics Page
+* Embedded Systems Page
+* Software Development Page
 * Artificial Intelligence Page
 * Open Source Page
 

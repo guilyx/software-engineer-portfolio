@@ -1,28 +1,19 @@
 # Portfolio Website.
 Web Portfolio to showcase projects and skills in better manner. 
 
-**If you enjoy this project, please consider [supporting me](https://www.paypal.me/vinaysomawat) to continue developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/vinaysomawat)
-
-###### https://vinaysomawat.github.io/
-
-![Image](https://github.com/vinaysomawat/vinaysomawat.github.io/blob/master/web-dev/images/portfolio.png)
 ### About me
-* Competitive Programming Page
-* Web Designing Page
 * Software Development Page
-* Android Application Page
-* Technical Writing Page
-* Machine Learning Page
+* Embedded Systems Page
+* Robotics Page
+* Artificial Intelligence Page
 * Open Source Page
 
 ### Hire Me banner
 ### Skills
 * Skills with progress bar
 ### Education
-* Undergrad
-* Intermediate
+* Bachelor's
+* Master's
 ### Work Experience
 ### Contact
 * Mail Address

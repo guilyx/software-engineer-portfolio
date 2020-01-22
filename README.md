@@ -2,6 +2,7 @@
 Web Portfolio to showcase projects and skills in better manner. 
 
 ### About me
+* Programming Profile Page
 * Robotics Page
 * Embedded Systems Page
 * Software Development Page

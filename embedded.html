@@ -56,28 +56,102 @@
                                     <h2>Embedded Development</h2>
                                     <hr>
                                     <h4><a href="https://github.com/guilyx/Cpp-Osciloscope">Homemade Oscilloscope</a></h4>
-                                    <p style="margin-bottom: 0px;">The Homemade Oscilloscope is a C++ project with a Qt-based GUI :</p>
+                                    <p style="margin-bottom: 0px;">The Homemade Oscilloscope is a C/C++ project with a Qt-based GUI :</p>
                                     <strong>
                                        <ul>
                                           <li>Data is sent by a low-frequency generator through UART to a STM32,</li>
                                           <li>The STM32 receives the data through UART, and sends it through a buffer to the computer,</li>
                                           <li>The C++ App reads the data through the serial port, and processes it,</li>
                                           <li>The GUI built with Qt allows to modify the display of the function originally sent,</li>
-                                          <li>You can display triangle functions, sine waves etc, as well as zoom in, change the scale or the color of the graph.</li>
+                                          <li>The display features a zoom and scale slide, as well as a color change, run and reset button.</li>
                                        </ul>
                                     </strong>
-                                    <p><strong>Technologies Used: </strong>C++, Qt</p>
-                                    <p><strong>Contributors: </strong>Clément Lavergne, Nicolas Gibaud</p>
+                                    <p><strong>Technologies Used: </strong>C/C++, Qt</p>
+                                    <p><strong>Other Contributor(s): </strong><a href="https://github.com/LavergneC">Clément Lavergne</a>, <a href="https://github.com/nicolasGibaud7">Nicolas Gibaud</a></p>
                                     <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=Cpp-Osciloscope&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
                                     <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=Cpp-Osciloscope&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
                                     <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=Cpp-Osciloscope&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+                                    
                                     <hr>
-                                    <h4><a href="https://github.com/guilyx/CareerHigh-Android">CareerHigh-App</a></h4>
-                                    <p>The app shows the content of website careerhigh.in in android devices.<br>Published Article: <a href="https://hackernoon.com/how-to-convert-a-website-into-an-android-app-from-scratch-de19c84a5801">How to convert a website into an Android app from scratch?</a></p>
-                                    <p><strong>Technologies Used: </strong>JAVA, XML</p>
-                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=CareerHigh-Android&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=CareerHigh-Android&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=CareerHigh-Android&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+                                    <h4><a href="https://github.com/guilyx/scoreboard-fpga">FPGA Chronometer</a></h4>
+                                    <p style="margin-bottom: 0px;">The FPGA chronometer possesses multiple features and is implemented on an Altera Cyclone V :</p>
+                                    <strong>
+                                       <ul>
+                                          <li>4 digit ( up to 99.99 ) displayed with a 7 segments LED display,</li>
+                                          <li>Start/Stop/Reset buttons,</li>
+                                          <li>Save/Load a recorded time buttons,</li>
+                                          <li>Reverse counting/Counting switch,</li>
+                                       </ul>
+                                    </strong>
+                                    <p><strong>Technologies Used: </strong>VHDL, Finished-State Machines</p>
+                                    <p><strong>Other Contributor(s):</strong>Nadea Krishtalyova</p>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=scoreboard-fpga&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=scoreboard-fpga&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=scoreboard-fpga&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+                                    <hr>
+                                    <h4><a href="https://github.com/master-coro/mcp23s17-spi-driver">MCP23S17 Driver</a></h4>
+                                    <p style="margin-bottom: 0px;">Implementation of an API to enslave an MCP23S17 I/O Expander through SPI :</p>
+                                    <strong>
+                                       <ul>
+                                          <li>Use a private SPI driver for STM32F3,</li>
+                                          <li>Allows multiple low-level functions as well as abstracted high level ones,</li>
+                                          <li>You can write/read registers, set/clear bits in a register at the lowest levels,</li>
+                                          <li>You can also use, inspired by arduino, digitalWrite and readBits of GPIOs at the higher level,</li>
+                                          <li>The interrupt controller is still to be implemented.</li>
+                                       </ul>
+                                    </strong>
+                                    <p><strong>Technologies Used: </strong>C/C++, STM32</p>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=mcp23s17-spi-driver&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=mcp23s17-spi-driver&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=mcp23s17-spi-driver&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+                                    <hr>
+                                    <h4><a href="https://github.com/master-coro/micro-stm32f3">STM32F3 Tools</a></h4>
+                                    <p style="margin-bottom: 0px;">Diverse tools implemented on a STM32F3 :</p>
+                                    <strong>
+                                       <ul>
+                                          <li>An Ultrasonic Sensor driver (HC-SR04),</li>
+                                          <li>A Stepper Motor controller,</li>
+                                          <li>Charlieplexing.</li>
+                                       </ul>
+                                    </strong>
+                                    <p><strong>Technologies Used: </strong>C/C++, STM32</p>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=micro-stm32f3&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=micro-stm32f3&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=micro-stm32f3&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+                                    <hr>
+                                    <h4><a href="https://github.com/guilyx/stm32-rpi-com">STM32 - RPi Communicatiion</a></h4>
+                                    <p style="margin-bottom: 0px;">UART Communication project between STM32 and RPi :</p>
+                                    <strong>
+                                       <ul>
+                                          <li>The STM32 broadcasts "TR" to notify transmission started,</li>
+                                          <li>The STM32 then broadcasts "AA" to start the data transmission and "ZZ" at the end of it,</li>
+                                          <li>The Raspberry Piwaits for "AA", then processes the data buffer until "ZZ" is received,</li>
+                                          <li>The process is repeated every 100 ms by interruption on Timer 6.</li>
+                                       </ul>
+                                    </strong>
+                                    <p><strong>Technologies Used: </strong>C, Python, STM32, RPi</p>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=stm32-rpi-com&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=stm32-rpi-com&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=guilyx&repo=stm32-rpi-com&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+                                    <hr>
+                                    <h4><a href="https://github.com/master-coro/embel-calculator">CPLD Calculator</a></h4>
+                                    <p style="margin-bottom: 0px;">The Calculator, implemented on a Xillinx CoolRunner II with several features :</p>
+                                    <strong>
+                                       <ul>
+                                          <li>Three digits are displayed with 7-segments LED displays, the operands and the result,</li>
+                                          <li>The operands can be increased from zero to nine (modulo nine) with the push buttons (one for each operand),</li>
+                                          <li>Addition, Multiplication and Substraction are available with three combinations.</li>
+                                       </ul>
+                                    </strong>
+                                    <p><strong>Technologies Used: </strong>VHDL, FSM</p>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=embel-calculator&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=embel-calculator&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                    <iframe src="https://ghbtns.com/github-btn.html?user=master-coro&repo=embel-calculator&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
                                  </div>
                               </div>
                            </div>
